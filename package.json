@@ -1,15 +1,15 @@
 {
-  "name": "aws-cdk-v2-typescript-migrator",
+  "name": "aws-cdk-v2-migrator",
   "version": "0.0.0",
   "description": "oclif example Hello World CLI",
   "author": "Maina Wycliffe @mainawycliffe",
   "bin": {
-    "aws-cdk-v2-typescript-migrator": "./bin/run"
+    "aws-cdk-v2-migrator": "./bin/run"
   },
-  "homepage": "https://github.com/mainawycliffe/aws-cdk-v2-typescript-migrator",
+  "homepage": "https://github.com/mainawycliffe/aws-cdk-v2-migrator",
   "license": "MIT",
   "main": "dist/index.js",
-  "repository": "mainawycliffe/aws-cdk-v2-typescript-migrator",
+  "repository": "mainawycliffe/aws-cdk-v2-migrator",
   "files": [
     "/bin",
     "/dist",
@@ -40,8 +40,8 @@
     "typescript": "^4.4.3"
   },
   "oclif": {
-    "bin": "aws-cdk-v2-typescript-migrator",
-    "dirname": "aws-cdk-v2-typescript-migrator",
+    "bin": "aws-cdk-v2-migrator",
+    "dirname": "aws-cdk-v2-migrator",
     "commands": "./dist/commands",
     "plugins": [
       "@oclif/plugin-help",
