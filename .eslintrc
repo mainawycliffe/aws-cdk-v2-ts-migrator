@@ -19,6 +19,9 @@
   "plugins": ["@typescript-eslint"],
   "rules": {
     "prettier/prettier": "error",
-    "prefer-module": "off"
+    "prefer-module": "off",
+    "unicorn/filename-case": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off"
   }
 }
