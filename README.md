@@ -1,20 +1,23 @@
-oclif-hello-world
-=================
+# oclif-hello-world
 
 oclif example Hello World CLI
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
-[![CircleCI](https://circleci.com/gh/oclif/hello-world/tree/main.svg?style=shield)](https://circleci.com/gh/oclif/hello-world/tree/main)
+[![CI](https://github.com/mainawycliffe/aws-cdk-v2-ts-migrator/actions/workflows/testing_linting.yml/badge.svg)](https://github.com/mainawycliffe/aws-cdk-v2-ts-migrator/actions/workflows/testing_linting.yml)
 [![Downloads/week](https://img.shields.io/npm/dw/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
 [![License](https://img.shields.io/npm/l/oclif-hello-world.svg)](https://github.com/oclif/hello-world/blob/main/package.json)
 
 <!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
+
+- [Usage](#usage)
+- [Commands](#commands)
 <!-- tocstop -->
+
 # Usage
+
 <!-- usage -->
+
 ```sh-session
 $ npm install -g aws-cdk-v2-typescript-migrator
 $ aws-cdk-v2-typescript-migrator COMMAND
@@ -26,21 +29,25 @@ USAGE
   $ aws-cdk-v2-typescript-migrator COMMAND
 ...
 ```
+
 <!-- usagestop -->
+
 # Commands
+
 <!-- commands -->
-* [`aws-cdk-v2-typescript-migrator hello PERSON`](#aws-cdk-v2-typescript-migrator-hello-person)
-* [`aws-cdk-v2-typescript-migrator hello world`](#aws-cdk-v2-typescript-migrator-hello-world)
-* [`aws-cdk-v2-typescript-migrator help [COMMAND]`](#aws-cdk-v2-typescript-migrator-help-command)
-* [`aws-cdk-v2-typescript-migrator plugins`](#aws-cdk-v2-typescript-migrator-plugins)
-* [`aws-cdk-v2-typescript-migrator plugins:install PLUGIN...`](#aws-cdk-v2-typescript-migrator-pluginsinstall-plugin)
-* [`aws-cdk-v2-typescript-migrator plugins:inspect PLUGIN...`](#aws-cdk-v2-typescript-migrator-pluginsinspect-plugin)
-* [`aws-cdk-v2-typescript-migrator plugins:install PLUGIN...`](#aws-cdk-v2-typescript-migrator-pluginsinstall-plugin-1)
-* [`aws-cdk-v2-typescript-migrator plugins:link PLUGIN`](#aws-cdk-v2-typescript-migrator-pluginslink-plugin)
-* [`aws-cdk-v2-typescript-migrator plugins:uninstall PLUGIN...`](#aws-cdk-v2-typescript-migrator-pluginsuninstall-plugin)
-* [`aws-cdk-v2-typescript-migrator plugins:uninstall PLUGIN...`](#aws-cdk-v2-typescript-migrator-pluginsuninstall-plugin-1)
-* [`aws-cdk-v2-typescript-migrator plugins:uninstall PLUGIN...`](#aws-cdk-v2-typescript-migrator-pluginsuninstall-plugin-2)
-* [`aws-cdk-v2-typescript-migrator plugins update`](#aws-cdk-v2-typescript-migrator-plugins-update)
+
+- [`aws-cdk-v2-typescript-migrator hello PERSON`](#aws-cdk-v2-typescript-migrator-hello-person)
+- [`aws-cdk-v2-typescript-migrator hello world`](#aws-cdk-v2-typescript-migrator-hello-world)
+- [`aws-cdk-v2-typescript-migrator help [COMMAND]`](#aws-cdk-v2-typescript-migrator-help-command)
+- [`aws-cdk-v2-typescript-migrator plugins`](#aws-cdk-v2-typescript-migrator-plugins)
+- [`aws-cdk-v2-typescript-migrator plugins:install PLUGIN...`](#aws-cdk-v2-typescript-migrator-pluginsinstall-plugin)
+- [`aws-cdk-v2-typescript-migrator plugins:inspect PLUGIN...`](#aws-cdk-v2-typescript-migrator-pluginsinspect-plugin)
+- [`aws-cdk-v2-typescript-migrator plugins:install PLUGIN...`](#aws-cdk-v2-typescript-migrator-pluginsinstall-plugin-1)
+- [`aws-cdk-v2-typescript-migrator plugins:link PLUGIN`](#aws-cdk-v2-typescript-migrator-pluginslink-plugin)
+- [`aws-cdk-v2-typescript-migrator plugins:uninstall PLUGIN...`](#aws-cdk-v2-typescript-migrator-pluginsuninstall-plugin)
+- [`aws-cdk-v2-typescript-migrator plugins:uninstall PLUGIN...`](#aws-cdk-v2-typescript-migrator-pluginsuninstall-plugin-1)
+- [`aws-cdk-v2-typescript-migrator plugins:uninstall PLUGIN...`](#aws-cdk-v2-typescript-migrator-pluginsuninstall-plugin-2)
+- [`aws-cdk-v2-typescript-migrator plugins update`](#aws-cdk-v2-typescript-migrator-plugins-update)
 
 ## `aws-cdk-v2-typescript-migrator hello PERSON`
 
@@ -153,7 +160,7 @@ ALIASES
   $ aws-cdk-v2-typescript-migrator plugins add
 
 EXAMPLES
-  $ aws-cdk-v2-typescript-migrator plugins:install myplugin 
+  $ aws-cdk-v2-typescript-migrator plugins:install myplugin
 
   $ aws-cdk-v2-typescript-migrator plugins:install https://github.com/someuser/someplugin
 
@@ -213,7 +220,7 @@ ALIASES
   $ aws-cdk-v2-typescript-migrator plugins add
 
 EXAMPLES
-  $ aws-cdk-v2-typescript-migrator plugins:install myplugin 
+  $ aws-cdk-v2-typescript-migrator plugins:install myplugin
 
   $ aws-cdk-v2-typescript-migrator plugins:install https://github.com/someuser/someplugin
 
@@ -331,4 +338,5 @@ FLAGS
 DESCRIPTION
   Update installed plugins.
 ```
+
 <!-- commandsstop -->
