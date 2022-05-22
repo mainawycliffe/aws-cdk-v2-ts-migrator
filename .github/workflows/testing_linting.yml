@@ -6,8 +6,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - uses: borales/actions-yarn@v2.3.0
         with:
           cmd: install # will run `yarn install` command
+
       - run: yarn lint
-      - run: build
+        name: Run Linting
+
+      - run: yarn test
+        name: Run yarn test
+
+      - run: yarn build
+        name: Build Command
